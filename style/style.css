@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content {
+    width: 1100px;
+    height: 150px;
+    border: 1px solid #00000000;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.container .content h1 {
+    color: #000;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.container .content .typing {
+width: 350px;
+height: 45px;
+border-color: blue;
+border-radius: 10px;
+font-size: 20px;
+}
+
+.container .content .send {
+    width: 120px;
+height: 45px;
+border-color: blue;
+background-color: blue;
+border-radius: 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+position: relative;
+top: -6px;
+cursor: pointer;
+}
+
+.container .todoItems {
+    width: 1100px;
+    height: 100vh;
+    border: 1px solid #00000000;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container .todoItems .item {
+    width: 330px;
+    height: 150px;
+    border: 3px solid;
+    border-color: blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.container .todoItems .item .in {
+    width: 290px;
+    height: 30px;
+    border: 1px solid #00000000;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10px;
+}
+
+.container .todoItems .item p {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #00000000;
+    font-size: 25px;
+}
+
+.container .todoItems .item .time {
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    color: silver;
+}
+
+.container .todoItems .item .close {
+width: 50px;
+height: 20px;
+}
+
+i {
+    font-size: 30px;
+}
